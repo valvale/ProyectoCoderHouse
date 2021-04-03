@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&family=Tajawal:wght@200;300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+}
+
+ul li { /* Estilos generales para todas las listas */
+    list-style-type: none;
+    display: inline-block;   
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+ul li a:hover{
+    text-decoration: underline;
+}
+
+ul li a:visit{
+    color: rgb(6, 112, 138);
+}
+
+header {
+    text-align: center;
+    background-image: url(../imagenes/background-01x2.jpg);
+    background-size: 100% 100%;
+    padding: 60px 0;
+    background-repeat: no-repeat;
+}
+
+header section{
+    justify-content: center;
+    display: flex;
+    text-align: right;
+    position: relative;
+}
+
+header section div img {
+    margin-top: 90px;
+    margin-right: 100px;
+    width: 200px;
+    height: 200px;
+}
+
+nav {
+    text-transform: uppercase;
+    padding-bottom: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul__li { /* Estilo solo para la lista del header */
+    color: rgb(116, 6, 138);
+    padding: 0px 100px;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#Nombre {
+    color: rgb(42, 21, 179);
+    padding: 50px;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 100px;
+}
+
+#Descripcion {
+    color: rgb(42, 21, 179);
+    padding: 5px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 75px;
+    font-family: 'Arimo', sans-serif;
+}
+
+main {
+    background-color: rgb(214, 129, 32);
+}
+
+h2 {
+    padding: 45px 200px;
+    font-size: 70px;
+    color: rgb(237, 178, 250);
+    font-style: bold;
+    font-weight: 400;
+    font-family: 'Arimo', sans-serif;
+}
+
+.parrafos {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: honeydew;
+    font-size: 25px;
+    color: rgb(177, 64, 30);
+    font-style: bold;
+    font-weight: 400;
+    padding: 35px 300px 35px 300px;
+}
+
+#imagenclientes {
+    justify-content: center;
+    height: 50vh;
+    margin: 2%;
+}
+
+.servicios {
+    background-color: brown;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#recuadro {
+    text-align: justify;
+    background-color: honeydew;
+    border: solid 5px wheat;
+    width: 500px;
+    height: 670px;
+    margin: 40px;
+    font-size: 25px;
+    color: rgb(177, 64, 30);
+    font-style: bold;
+    font-weight: 400;
+    padding: 80px 50px 35px 50px;
+}
+
+.grid-nombres{
+    display: grid;
+    grid-template-columns: repeat(2, 70vh);
+    gap: 5vh;
+}
+
+#grid-titulo {
+    background-color: lawngreen;
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+
+    grid-row: span;
+}
